@@ -1,0 +1,11 @@
+Dependencies for Project 'demo', Target 'Target 1': (DO NOT MODIFY !)
+F (..\System\Startup.s)(0x5EBFFAE7)(--cpu ARM7TDMI -g --16 --apcs=interwork -Id:\Keil_v5\ARM\RV31\INC-Id:\Keil_v5\ARM\CMSIS\Include-Id:\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 528"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
+F (..\User\main.c)(0x5EF87F7F)(--c99 --gnu -c --cpu ARM7TDMI -g -O0 --apcs=interwork --split_sections -I ..\Inc-Id:\Keil_v5\ARM\RV31\INC-Id:\Keil_v5\ARM\CMSIS\Include-Id:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="528"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\Inc\LPC213X_LIB.h)(0x5ED626C5)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EA501CD)
+I (d:\Keil_v5\ARM\INC\Philips\LPC213X.H)(0x5EA263BF)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+F (..\Src\LPC213x_LIB.c)(0x5ED73B6C)(--c99 --gnu -c --cpu ARM7TDMI -g -O0 --apcs=interwork --split_sections -I ..\Inc-Id:\Keil_v5\ARM\RV31\INC-Id:\Keil_v5\ARM\CMSIS\Include-Id:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="528"-o .\objects\lpc213x_lib.o --omf_browse .\objects\lpc213x_lib.crf --depend .\objects\lpc213x_lib.d)
+I (..\Inc\LPC213x_LIB.h)(0x5ED626C5)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EA501CD)
+I (d:\Keil_v5\ARM\INC\Philips\LPC213X.H)(0x5EA263BF)

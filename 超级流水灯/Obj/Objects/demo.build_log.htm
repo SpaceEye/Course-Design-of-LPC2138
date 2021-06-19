@@ -1,0 +1,47 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.28.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 000 SpacePioneer, 000, LIC=KRMW3-AZY8Z-HLICL-0NRW6-63JTL-9EMCK
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.28.0.0
+Toolchain Path:  d:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARM.DLL V5.28.0.0
+Dialog DLL:      DARMP.DLL V1.53.0.0
+Target DLL:      UL2ARM.DLL V1.74.10.0
+Dialog DLL:      TARMP.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+F:\学习\嵌入式\课程设计\超级流水灯\Obj\demo.uvproj
+Project File Date:  05/31/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'd:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling main.c...
+..\User\main.c(131): warning:  #188-D: enumerated type mixed with another type
+  			GPIO_WritePin(P0, led_list[i], (display >> i) & 0x01);
+..\User\main.c(146): warning:  #223-D: function "sprintf" declared implicitly
+  	sprintf(buff, "你选择了流水灯样式: %d\r", style);
+..\User\main.c(159): warning:  #223-D: function "sprintf" declared implicitly
+  	sprintf(buff, "你选择了流水灯样式: %d\r", style);
+..\User\main.c(174): warning:  #223-D: function "sprintf" declared implicitly
+  		sprintf(buff, "你选择了流水灯样式: %d\r", style);
+..\User\main.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=4764 RO-data=32 RW-data=76 ZI-data=1260  
+FromELF: creating hex file...
+".\Objects\demo.axf" - 0 Error(s), 4 Warning(s).
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>
